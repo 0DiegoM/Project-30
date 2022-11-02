@@ -21,9 +21,10 @@ canvas
     border-radius:20px;
     animation-name: example;
     animation-duration: 4s;
-    margin-top: 50px; 
+    margin-top: 150px; 
     animation-iteration-count: infinite;
-    
+    box-shadow: 5px 5px grey;
+    box-shadow: 1px 1px 38px white;
 }
 @keyframes example {
 
@@ -51,4 +52,8 @@ font-size: 30px;
     margin-right: 20px;
     float: right;
     font-size: 30px;
+}
+
+#sketch_to_be_drawn {
+  color: darkslategray;
 }
